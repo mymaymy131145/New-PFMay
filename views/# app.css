@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    position: relative;
+    margin-top: 2rem;
+}
+
+.input-field {
+    padding: 0.8rem;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+form input[type="submit"] {
+    background-color: linear-gradient(to left, #6fbbf5, #8e54e9);
+    color: #6fbbf5;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding: 0.4rem;
+}
